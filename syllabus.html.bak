@@ -40,7 +40,7 @@
     <article class="primary">
       <h2>Syllabus</h2>
       <div id="accordion">
-        <div class="syllabus">
+        <div class="boxheader">
         <h3 id="general">Course Catalog Description</h3>
         </div>
         <div class="height-fix">
@@ -52,7 +52,7 @@
             deploy a Web site with multiple pages and cross-linked structures.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
         <h3>Course Outcomes</h3>
         </div>
         <div class="height-fix">
@@ -103,7 +103,7 @@
             </li>
           </ul>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
           <h3 id="location">Lecture Days, Time, &amp; Place</h3>
         </div>
         <div class="height-fix">
@@ -111,7 +111,7 @@
           <p>John T. Rettaliata Engg Center, Room 258</p>
           <p>Or online via Blackboard's Collaborate Ultra</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
           <h3 id="overview">Course Overview</h3>
         </div>
         <div class="height-fix">
@@ -123,13 +123,13 @@
             approach to web development.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
       <h3 id="schedule">Schedule of Topics&#x2215;Readings</h3>
         </div>
         <div class="height-fix">
           <p>See <a href="index.html">Calender</a></p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
       <h3 id="materials">Textbook&#x28;s&#x29;</h3>
         </div>
         <div class="height-fix">
@@ -163,7 +163,7 @@
             </ul>
           </section>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="technologies">Technology Requirements</h3>
         </div>
           <div class="height-fix">
@@ -194,7 +194,7 @@
               </li>
             </ul>
           </div>
-          <div class="syllabus">
+          <div class="boxheader">
 <h3 id="readings">Readings &#x2215; Videos</h3>
         </div>
         <div class="height-fix">
@@ -206,7 +206,7 @@
             keep up the best you can. 
           </P>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="notes">Course Notes</h3>
         </div>
         <div class="height-fix">
@@ -216,13 +216,13 @@
             the material.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="websites">Course Web Site</h3>
         </div>
         <div class="height-fix">
           <!--UPDATE--><p>https://dkriegls.github.io/itmd-361-spring2023/</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="blackboard">Blackboard</h3>
         </div>
         <div class="height-fix">
@@ -231,13 +231,13 @@
             will be distributed via Basecamp and this website. 
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="guests">Guest Lectures</h3>
         </div>
         <div class="height-fix">
           <p>There will not be any guest lectures in this class</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="Attendance">Attendance</h3>
         </div>
         <div class="height-fix">
@@ -246,7 +246,7 @@
             in a timely manner before assignments are due.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="assignments">Assignments</h3>
         </div>
         <div class="height-fix">
@@ -270,25 +270,25 @@
             I will check to see that you are adding proper summaries to your GitHub commits. You are also expected to help other students on Basecamp. 
             This means polite give-and-take discussions of code. Do not discuss anything else on basecamp. Practice professional and supportive critiquing. 
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="quizzes">Quizzes</h3>
         </div>
         <div class="height-fix">
           <p>There will not be any quizzes in this class</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="examinations">Examinations</h3>
         </div>
         <div class="height-fix">
           <p>There will not be any examinations in this class</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="extra-credit">Extra-Credit</h3>
         </div>
         <div class="height-fix">
           <p>There will not be any extra credit in this class</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="academic-honesty">Academic Honesty</h3>
         </div>
         <div class="height-fix">
@@ -314,7 +314,7 @@
             violations to the relevant offices of Undergraduate or Graduate Academic Affairs.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="grading">Grading</h3>
         </div>
         <div class="height-fix">
@@ -354,13 +354,13 @@
           <p>D = 60-69</p>
           <p>E =&lt;60 points</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="other">Other Class Resources</h3>
         </div>
         <div class="height-fix">
           <p>All course work can be found through the class website</p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="our-contract">Our Contract</h3>
         </div>
         <div class="height-fix">
@@ -370,7 +370,7 @@
             always be available on Basecamp. Revisions to readings and assignments will be communicated via Basecamp.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="special-needs">Special Needs Statement</h3>
         </div>
         <div class="height-fix">
@@ -391,7 +391,7 @@
             students.
           </p>
         </div>
-        <div class="syllabus">
+        <div class="boxheader">
 <h3 id="Discrimination">Sexual Harassment and Discrimination Information</h3>
         </div>
           <div class="height-fix">
