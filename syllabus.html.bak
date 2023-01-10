@@ -128,29 +128,29 @@
         <div class="panel">
           <section id="books">
             <p>
-              The following books are required for this course. Retail price tag for the entire course
+              The following books are <OPTIONAL for this course. Retail price tag for the entire course
               should be less than $100 and each book should be worthy of a place on your bookshelf or
               electronic device of choice long after the class has ended.
             </p>
             <ul>
               <li>
-                Haverbeke, M. <i>Eloquent JavaScript 3rd ed.</i>. No Starch Press, $31.95 (eBook),
+                Haverbeke, M. <em>Eloquent JavaScript 3rd ed.</em>. No Starch Press, $31.95 (eBook),
                 9781593279509
               </li>
               <li>
-                Keith, J. &amp; Andrew, R. <i>HTML5 for Web Designers 2nd ed.</i>. A Book Apart, $9
+                Keith, J. &amp; Andrew, R. <em>HTML5 for Web Designers 2nd ed.</em>. A Book Apart, $9
                 (eBook), 9781937557249
               </li>
               <li>
-                Marcotte, E. <i>Responsive Web Design 2nd ed.</i>. A Book Apart, $9 (eBook),
+                Marcotte, E. <em>Responsive Web Design 2nd ed.</em>. A Book Apart, $9 (eBook),
                 9781937557188
               </li>
               <li>
-                Santa Maria, J. <i>On Web Typography</i>. A Book Apart, $9 (eBook), 9781937557065
+                Santa Maria, J. <em>On Web Typography</em>. A Book Apart, $9 (eBook), 9781937557065
               </li>
               <h5>Optional: If you want to learn git command-line</h5>
               <li>
-                Swicegood, T. <i>Pragmatic Version Control Using Git</i>. Pragmatic Bookshelf, $25
+                Swicegood, T. <em>Pragmatic Version Control Using Git</em>. Pragmatic Bookshelf, $25
                 (eBook), 9781934356159
               </li>
             </ul>
