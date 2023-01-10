@@ -43,7 +43,7 @@
       <div class="boxheader">
         <h3>Project One: Only Use HTML</h3>
       </div>
-      <div class="height-fix">
+      <div>
         <section class="description">
           <h4>Project Description</h4>
           <p>
@@ -129,7 +129,7 @@
       <div class="boxheader">
         <h3>Project Two: Add CSS</h3>
       </div>
-      <div class="height-fix">
+      <div>
         <section class="description">
           <h4>Project Description</h4>
           <p>
@@ -219,7 +219,7 @@
       <div class="boxheader">
         <h3>Project Three: Add JavaScript</h3>
       </div>
-      <div class="height-fix">
+      <div>
         <section class="description">
           <h4>Project Description</h4>
           <p>

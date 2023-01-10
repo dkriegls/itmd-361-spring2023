@@ -6,7 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="css/screen.css" media="screen" />
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <script async src="js/site.js"></script>
+  <!--<script async src="js/site.js"></script>-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#accordion" ).accordion();
+    } );
+  </script>
 </head>
 <body>
   <div id="page">
@@ -29,14 +36,14 @@
       </nav>
     </header>
 
-  <main id="content">
+  <main>
     <article class="primary">
-      <h2 class="label">Syllabus</h2>
-      <section id="general">
-        <button class="accordion">
-          <h3>Course Catalog Description</h3>
-        </button>
-        <div class="panel">
+      <h2>Syllabus</h2>
+      <div id="accordion">
+        <div class="syllabus">
+        <h3 id="general">Course Catalog Description</h3>
+        </div>
+        <div class="height-fix">
           <p>
             This course will cover the creation of Web pages and sites using
             HTML, CSS, Javascript, jQuery, and graphical applications as well as the client
@@ -45,10 +52,10 @@
             deploy a Web site with multiple pages and cross-linked structures.
           </p>
         </div>
-        <button class="accordion">
-          <h3>Course Outcomes</h3>
-        </button>
-        <div class="panel">
+        <div class="syllabus">
+        <h3>Course Outcomes</h3>
+        </div>
+        <div class="height-fix">
           <p>
             Students completing this course will learn to:
           </p>
@@ -96,18 +103,18 @@
             </li>
           </ul>
         </div>
-      </section>      
-      <section id="location">
-        <button class="accordion"><h3>Lecture Days, Time, &amp; Place</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+          <h3 id="location">Lecture Days, Time, &amp; Place</h3>
+        </div>
+        <div class="height-fix">
           <p><!--UPDATE-->Tuesdays 6:25pm to 9:05pm</p>
           <p>John T. Rettaliata Engg Center, Room 258</p>
           <p>Or online via Blackboard's Collaborate Ultra</p>
         </div>
-      </section>
-      <section id="overview">
-        <button class="accordion"><h3>Course Overview</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+          <h3 id="overview">Course Overview</h3>
+        </div>
+        <div class="height-fix">
           <p>
             The course emphasizes standards and research. You will learn to
             make websites that last and are accessible to everyone. The course avoids quick-fix shortcuts that
@@ -116,19 +123,19 @@
             approach to web development.
           </p>
         </div>
-      </section>
-      <section id="schedule">
-        <button class="accordion"><h3>Schedule of Topics&#x2215;Readings</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+      <h3 id="schedule">Schedule of Topics&#x2215;Readings</h3>
+        </div>
+        <div class="height-fix">
           <p>See <a href="index.html">Calender</a></p>
         </div>
-      </section>
-      <section id="materials">
-        <button class="accordion"><h3>Textbook&#x28;s&#x29;</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+      <h3 id="materials">Textbook&#x28;s&#x29;</h3>
+        </div>
+        <div class="height-fix">
           <section id="books">
             <p>
-              The following books are <OPTIONAL for this course. Retail price tag for the entire course
+              The following books are <span class="redfont">OPTIONAL</span> for this course. Retail price tag for the entire course
               should be less than $100 and each book should be worthy of a place on your bookshelf or
               electronic device of choice long after the class has ended.
             </p>
@@ -156,9 +163,10 @@
             </ul>
           </section>
         </div>
-        <section id="technologies">
-          <button class="accordion"><h3>Technology Requirements</h3></button>
-          <div class="panel">
+        <div class="syllabus">
+<h3 id="technologies">Technology Requirements</h3>
+        </div>
+          <div class="height-fix">
             <ul>
               <li>An email account and personal computer</li>
               <li>A browser or cloud-based bookmarking scheme to aid your information management</li>
@@ -186,11 +194,10 @@
               </li>
             </ul>
           </div>
-        </section>
-      </section>
-      <section id="readings">
-        <button class="accordion"><h3>Readings &#x2215; Videos</h3></button>
-        <div class="panel">
+          <div class="syllabus">
+<h3 id="readings">Readings &#x2215; Videos</h3>
+        </div>
+        <div class="height-fix">
           <p>
             Readings for the class will be assigned from the textbooks as well as in the form of 
             on-line readings. Content Lecture Videos will be linked from Basecamp while Class Meet-up
@@ -199,50 +206,50 @@
             keep up the best you can. 
           </P>
         </div>
-      </section>
-      <section id="notes">
-        <button class="accordion"><h3>Course Notes</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="notes">Course Notes</h3>
+        </div>
+        <div class="height-fix">
           <p>
             PDF copies of the course lectures will be provided on Basecamp. You 
             should be aware that note taking is encouraged and will help your understanding of 
             the material.
           </p>
         </div>
-      </section>
-      <section id="websites">
-        <button class="accordion"><h3>Course Web Site</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="websites">Course Web Site</h3>
+        </div>
+        <div class="height-fix">
           <!--UPDATE--><p>https://dkriegls.github.io/itmd-361-spring2023/</p>
         </div>
-      </section>
-      <section id="blackboard">
-        <button class="accordion"><h3>Blackboard</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="blackboard">Blackboard</h3>
+        </div>
+        <div class="height-fix">
           <p>
             This class will use Blackboard for Collaborate Ultra video lecturing and to communicate student grades. All other class material 
             will be distributed via Basecamp and this website. 
           </p>
         </div>
-      </section>
-      <section id="guests">
-        <button class="accordion"><h3>Guest Lectures</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="guests">Guest Lectures</h3>
+        </div>
+        <div class="height-fix">
           <p>There will not be any guest lectures in this class</p>
         </div>
-      </section> 
-      <section id="Attendance">
-        <button class="accordion"><h3>Attendance</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="Attendance">Attendance</h3>
+        </div>
+        <div class="height-fix">
           <p>
             <!--UPDATE-->Attendance to live lectures is not required in this class. Students are responsible for watching class videos
             in a timely manner before assignments are due.
           </p>
         </div>
-      </section>   
-      <section id="assignments">
-        <button class="accordion"><h3>Assignments</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="assignments">Assignments</h3>
+        </div>
+        <div class="height-fix">
           <p>
             All major projects for this course will be submitted via Basecamp.
             Submissions should <b>not</b> include attachments, but rather URLs
@@ -263,28 +270,28 @@
             I will check to see that you are adding proper summaries to your GitHub commits. You are also expected to help other students on Basecamp. 
             This means polite give-and-take discussions of code. Do not discuss anything else on basecamp. Practice professional and supportive critiquing. 
         </div>
-      </section>
-      <section id="quizzes">
-        <button class="accordion"><h3>Quizzes</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="quizzes">Quizzes</h3>
+        </div>
+        <div class="height-fix">
           <p>There will not be any quizzes in this class</p>
         </div>
-      </section>
-      <section id="examinations">
-        <button class="accordion"><h3>Examinations</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="examinations">Examinations</h3>
+        </div>
+        <div class="height-fix">
           <p>There will not be any examinations in this class</p>
         </div>
-      </section> 
-      <section id="extra-credit">
-        <button class="accordion"><h3>Extra-Credit</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="extra-credit">Extra-Credit</h3>
+        </div>
+        <div class="height-fix">
           <p>There will not be any extra credit in this class</p>
         </div>
-      </section> 
-      <section id="academic-honesty">
-        <button class="accordion"><h3>Academic Honesty</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="academic-honesty">Academic Honesty</h3>
+        </div>
+        <div class="height-fix">
           <p>
             As with any course at IIT, you are expected to uphold
             <a href="https://web.iit.edu/student-affairs/handbook/fine-print/code-academic-honesty">the Code of Academic Honesty</a>
@@ -307,10 +314,10 @@
             violations to the relevant offices of Undergraduate or Graduate Academic Affairs.
           </p>
         </div>
-      </section>
-      <section id="grading">
-        <button class="accordion"><h3>Grading</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="grading">Grading</h3>
+        </div>
+        <div class="height-fix">
           <table>
             <tr>
               <td>Project 1</td>
@@ -347,26 +354,26 @@
           <p>D = 60-69</p>
           <p>E =&lt;60 points</p>
         </div>
-      </section>
-      <section id="other">
-        <button class="accordion"><h3>Other Class Resources</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="other">Other Class Resources</h3>
+        </div>
+        <div class="height-fix">
           <p>All course work can be found through the class website</p>
         </div>
-      </section>
-      <section id="our-contract">
-        <button class="accordion"><h3>Our Contract</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="our-contract">Our Contract</h3>
+        </div>
+        <div class="height-fix">
           <p>
             This syllabus is my contract with you as to what I will deliver and what I expect from you. 
             If I change the syllabus, I will issue a revised version of the syllabus; the latest version will 
             always be available on Basecamp. Revisions to readings and assignments will be communicated via Basecamp.
           </p>
         </div>
-      </section> 
-      <section id="special-needs">
-        <button class="accordion"><h3>Special Needs Statement</h3></button>
-        <div class="panel">
+        <div class="syllabus">
+<h3 id="special-needs">Special Needs Statement</h3>
+        </div>
+        <div class="height-fix">
           <p>
             I place a very high value on developing courses that are welcoming and accessible to all
             students. I will make reasonable accommodations for students with documented
@@ -384,12 +391,10 @@
             students.
           </p>
         </div>
-      </section>
-      <section id="Discrimination ">
-          <button class="accordion">
-            <h3>Sexual Harassment and Discrimination Information</h3>
-          </button>
-          <div class="panel">
+        <div class="syllabus">
+<h3 id="Discrimination">Sexual Harassment and Discrimination Information</h3>
+        </div>
+          <div class="height-fix">
             <p>
               Illinois Tech prohibits all sexual harassment, sexual misconduct, and 
               gender discrimination by any member of our community. This includes 
@@ -420,7 +425,7 @@
               Office of Title IX Compliance website at https://www.iit.edu/title-ix/resources.
             </p>
           </div>
-        </section>
+      </div>
     </article>
   </main>
     <footer id="footer">
