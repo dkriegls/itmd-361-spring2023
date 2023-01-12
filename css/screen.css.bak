@@ -426,11 +426,7 @@ td {
 .active, .accordion:hover {
   background-color: #9D6D72;
 }
-.panel{
-  padding: 18px 0;
-  display: none;
-  overflow: hidden;
-}
+
 
 
 /* ========== State ========== */

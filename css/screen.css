@@ -417,6 +417,7 @@ td {
   text-align: center;
   border: 1px solid #594e51;
   font-weight: bold;
+  font-size: 1em;
   transition: 0.2s;
 }
 .accordion h3{
