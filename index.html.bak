@@ -46,7 +46,7 @@
           <h3>Topic Schedule&#58;</h3>
           <div id="accordion">
             <button class="accordion"><!--UPDATE-->01/10 &#8212; Week 1</button>
-            <div class="panel">
+            <div>
               <h4 class="topic">Introduction</h4>
               <ol>
                 <li><em>HTML5 for Web Designers, 2nd ed.</em>,
@@ -59,7 +59,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->01/17 &#8212; Week 2</button>
-            <div class="panel">
+            <div">
               <h4 Class="topic">Intro to Technologies</h4>
               <ol>
                 <li><em>HTML5 for Web Designers, 2nd ed.</em>,
@@ -71,7 +71,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->01/24 &#8212; Week 3</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">HTML Basics</h4>
               <ol class="alignleft">
                 <li><em>Responsive Web Design 2nd ed.</em>,
@@ -81,7 +81,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->01/31 &#8212; Week 4</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">HTML Forms</h4>
               <ol class="alignleft">
                 <li><em>Responsive Web Design 2nd ed.</em>,
@@ -97,7 +97,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->02/07 &#8212; Week 5</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">CSS Basics</h4>
               <ol class="alignleft">
                 <li>MDN: <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">CSS Syntax</a></li>
@@ -106,7 +106,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->02/14 &#8212; Week 6</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">CSS Fonts and Floats</h4>
               <ol class="alignleft">
                 <li><em>On Web Typography</em>,
@@ -118,7 +118,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->02/21 &#8212; Week 7</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">CSS Positions and Layouts</h4>
               <ol class="alignleft">
                 <li><em>Responsive Web Design 2nd ed.</em>,
@@ -127,7 +127,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->02/28 &#8212; Week 8</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">CSS Layout Demo</h4>
               <ol class="alignleft">
                 <li>Chris Coyier, &#x201c;<a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a>&#x201d;</li>
@@ -135,15 +135,15 @@
               </ol>
             </div>           
             <button class="accordion"><!--UPDATE-->03/07 &#8212; Week 9</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">CSS Animations, Responsive Design</h4>
             </div>
             <button class="accordion"><!--UPDATE-->03/14 NO CLASS: Spring Break!</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">Homework: Have Fun!</h4>
             </div>
             <button class="accordion"><!--UPDATE-->03/21 &#8212; Week 10</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">JavaScript Intro</h4>
               <ol class="alignleft">
                 <li><em>Eloquent JavaScript 2nd ed.</em>,
@@ -153,7 +153,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->03/28 &#8212; Week 11</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">JavaScript Programing Basics</h4>
               <ol class="alignleft">
                 <li><em>Eloquent JavaScript 2nd ed.</em>,
@@ -163,7 +163,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->04/04 &#8212; Week 12</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">Google API, Sliders</h4>
               <ol class="alignleft">
                 <li><em>Eloquent JavaScript 2nd ed.</em>,
@@ -172,7 +172,7 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->04/11 &#8212; Week 13</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">Frameworks and SASS</h4>
               <ol class="alignleft">
                 <li><em>Eloquent JavaScript 2nd ed.</em>,
@@ -185,15 +185,15 @@
               </ol>
             </div>
             <button class="accordion"><!--UPDATE-->04/18 &#8212; Week 14</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">TBA</h4>
             </div>
             <button class="accordion"><!--UPDATE-->04/25 &#8212; Week 15</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">Lab: Final Project</h4>
             </div>
             <button class="accordion"><!--UPDATE-->No Class/Finals Week</button>
-            <div class="panel">
+            <div>
               <h4 Class="topic">Good Luck on Finals!</h4>
             </div>
           </div>
