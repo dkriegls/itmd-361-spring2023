@@ -35,7 +35,6 @@
         </ul>
       </nav>
     </header>
-
     <main id="content">
       <article class="primary">
         <h2 class="label">Course Calendar</h2>
@@ -201,7 +200,7 @@
         </section>
         
         <section class="due-dates">
-          <button class="boxheader">
+          <button class="homework">
             <h3>Labs</h3>
           </button>
           <div>
@@ -254,7 +253,7 @@
               </tr>
             </table>
           </div>
-          <button class="boxheader">
+          <button class="homework">
             <h3>Projects</h3>
           </button>
           <div>

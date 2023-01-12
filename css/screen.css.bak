@@ -154,6 +154,19 @@ h5 {
   font-size: 1em;
 }
 
+.homework{
+  background-color: #A7C3C9;
+  color: #333;
+  cursor: pointer;
+  padding: 0.6315789474em;
+  margin: 5px 0px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #594e51;
+  font-weight: bold;
+  font-size: 1em;
+}
+
 .height-fix{
   height: auto !important;
   padding-left: 15px;
